@@ -1,0 +1,5 @@
+.env
+results/
+.cache/
+dist/
+node_modules/

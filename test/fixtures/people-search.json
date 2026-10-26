@@ -1,0 +1,714 @@
+{
+  "success": true,
+  "data": {
+    "alexandria": [
+      {
+        "provider": "fullenrich",
+        "capability": "people/search",
+        "creditsCost": 30,
+        "data": {
+          "people": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "full_name": "Person A",
+              "first_name": "Person",
+              "last_name": "A",
+              "headline": "Specjalista ds. Rekrutacji",
+              "description": null,
+              "location": {
+                "country": "Poland",
+                "country_code": "PL",
+                "city": "Warsaw",
+                "region": "mazowieckie"
+              },
+              "employment": {
+                "current": {
+                  "title": "Rekruter",
+                  "seniority": "Unknown",
+                  "is_current": true,
+                  "start_at": "2023-04-01T00:00:00Z",
+                  "end_at": null,
+                  "description": null,
+                  "job_functions": [
+                    {
+                      "function": "Human Resources",
+                      "sub_function": "General HR"
+                    }
+                  ],
+                  "company": {
+                    "name": "Company 1",
+                    "headcount": 445,
+                    "headcount_range": "501-1000",
+                    "industry": {
+                      "main_industry": "Personal Care Product Manufacturing"
+                    }
+                  }
+                },
+                "all": [
+                  {
+                    "title": "Rekruter",
+                    "seniority": "Unknown",
+                    "is_current": true,
+                    "start_at": "2023-04-01T00:00:00Z",
+                    "end_at": null,
+                    "description": null,
+                    "job_functions": [
+                      {
+                        "function": "Human Resources",
+                        "sub_function": "General HR"
+                      }
+                    ],
+                    "company": {
+                      "name": "Company 1",
+                      "headcount": 445,
+                      "headcount_range": "501-1000",
+                      "industry": {
+                        "main_industry": "Personal Care Product Manufacturing"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Specjalista ds. rekrutacji",
+                    "seniority": "Senior",
+                    "is_current": null,
+                    "start_at": "2021-11-01T00:00:00Z",
+                    "end_at": "2022-11-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 2",
+                      "headcount": 82,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "Human Resources"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Pomoc w dziale prawnym dot. Prawa Upadłościowego",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2020-08-01T00:00:00Z",
+                    "end_at": "2020-09-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 3",
+                      "headcount": 18,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "Law Practice"
+                      }
+                    }
+                  }
+                ]
+              },
+              "social_profiles": {
+                "professional_network": {
+                  "id": 0,
+                  "url": "https://www.linkedin.com/in/person-a",
+                  "handle": "person-a",
+                  "connection_count": 943
+                }
+              }
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "full_name": "Person B",
+              "first_name": "Person",
+              "last_name": "B",
+              "headline": "Rekruter w Company 4",
+              "description": null,
+              "location": {
+                "country": "Poland",
+                "country_code": "PL",
+                "city": "Warsaw",
+                "region": "mazowieckie"
+              },
+              "employment": {
+                "current": {
+                  "title": "Rekruter",
+                  "seniority": "Unknown",
+                  "is_current": true,
+                  "start_at": "2023-09-01T00:00:00Z",
+                  "end_at": null,
+                  "description": null,
+                  "job_functions": [
+                    {
+                      "function": "Human Resources",
+                      "sub_function": "General HR"
+                    }
+                  ],
+                  "company": {
+                    "name": "Company 4",
+                    "headcount": 51,
+                    "headcount_range": "51-200",
+                    "industry": {
+                      "main_industry": "Retail"
+                    }
+                  }
+                },
+                "all": [
+                  {
+                    "title": "Rekruter",
+                    "seniority": "Unknown",
+                    "is_current": true,
+                    "start_at": "2023-09-01T00:00:00Z",
+                    "end_at": null,
+                    "description": null,
+                    "job_functions": [
+                      {
+                        "function": "Human Resources",
+                        "sub_function": "General HR"
+                      }
+                    ],
+                    "company": {
+                      "name": "Company 4",
+                      "headcount": 51,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "Retail"
+                      }
+                    }
+                  },
+                  {
+                    "title": "IT Talent Sourcer/ Recruiter",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2022-05-01T00:00:00Z",
+                    "end_at": "2024-07-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 5",
+                      "headcount": 36,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "IT Services and IT Consulting"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Junior HR Specialist",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2021-09-01T00:00:00Z",
+                    "end_at": "2022-05-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 5",
+                      "headcount": 36,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "IT Services and IT Consulting"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Junior HR",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2021-08-01T00:00:00Z",
+                    "end_at": "2022-12-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 6",
+                      "headcount": 5,
+                      "headcount_range": "11-50",
+                      "industry": {
+                        "main_industry": "Biotechnology Research"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Praktykant",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2020-12-01T00:00:00Z",
+                    "end_at": "2021-09-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 5",
+                      "headcount": 36,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "IT Services and IT Consulting"
+                      }
+                    }
+                  }
+                ]
+              },
+              "social_profiles": {
+                "professional_network": {
+                  "id": 1,
+                  "url": "https://www.linkedin.com/in/person-b",
+                  "handle": "person-b",
+                  "connection_count": 879
+                }
+              }
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000002",
+              "full_name": "Person C",
+              "first_name": "Person",
+              "last_name": "C",
+              "headline": "Headhunter / CEO at Company 7",
+              "description": null,
+              "location": {
+                "country": "Poland",
+                "country_code": "PL",
+                "city": "Warsaw",
+                "region": "mazowieckie"
+              },
+              "employment": {
+                "current": {
+                  "title": "Headhunter / CEO",
+                  "seniority": "Head",
+                  "is_current": true,
+                  "start_at": "2010-04-01T00:00:00Z",
+                  "end_at": null,
+                  "description": null,
+                  "job_functions": null,
+                  "company": {
+                    "name": "Company 7",
+                    "headcount": 0,
+                    "headcount_range": "",
+                    "industry": {
+                      "main_industry": ""
+                    }
+                  }
+                },
+                "all": [
+                  {
+                    "title": "Headhunter / CEO",
+                    "seniority": "Head",
+                    "is_current": true,
+                    "start_at": "2010-04-01T00:00:00Z",
+                    "end_at": null,
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 7",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  }
+                ]
+              },
+              "social_profiles": {
+                "professional_network": {
+                  "id": 2,
+                  "url": "https://www.linkedin.com/in/person-c",
+                  "handle": "person-c",
+                  "connection_count": 792
+                }
+              }
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000003",
+              "full_name": "Person D",
+              "first_name": "Person",
+              "last_name": "D",
+              "headline": "Rekruter",
+              "description": "(about text removed)",
+              "location": {
+                "country": "Poland",
+                "country_code": "PL",
+                "city": "Warsaw",
+                "region": "mazowieckie"
+              },
+              "employment": {
+                "current": {
+                  "title": "Rekruter  IT",
+                  "seniority": "Unknown",
+                  "is_current": true,
+                  "start_at": "2016-09-01T00:00:00Z",
+                  "end_at": null,
+                  "description": "(job description removed)",
+                  "job_functions": null,
+                  "company": {
+                    "name": "Company 8",
+                    "headcount": 0,
+                    "headcount_range": "",
+                    "industry": {
+                      "main_industry": ""
+                    }
+                  }
+                },
+                "all": [
+                  {
+                    "title": "Rekruter  IT",
+                    "seniority": "Unknown",
+                    "is_current": true,
+                    "start_at": "2016-09-01T00:00:00Z",
+                    "end_at": null,
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 8",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Konsultant ds. rekrutacji",
+                    "seniority": "Senior",
+                    "is_current": null,
+                    "start_at": "2011-05-01T00:00:00Z",
+                    "end_at": "2016-08-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 9",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  }
+                ]
+              },
+              "social_profiles": {
+                "professional_network": {
+                  "id": 3,
+                  "url": "https://www.linkedin.com/in/person-d",
+                  "handle": "person-d",
+                  "connection_count": 734
+                }
+              }
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000004",
+              "full_name": "Person E",
+              "first_name": "Person",
+              "last_name": "E",
+              "headline": "💠Pomagam moim klientom w zarządzaniu organizacją i optymalizacji procesów. Zarządzam projektami związanymi z informatyzacją procesów. Rekrutuję pracowników.",
+              "description": "(about text removed)",
+              "location": {
+                "country": "Poland",
+                "country_code": "PL",
+                "city": "Warsaw",
+                "region": "mazowieckie"
+              },
+              "employment": {
+                "current": {
+                  "title": "Niezależny konsultant, rekruter",
+                  "seniority": "Unknown",
+                  "is_current": true,
+                  "start_at": "2023-04-01T00:00:00Z",
+                  "end_at": null,
+                  "description": "(job description removed)",
+                  "job_functions": null,
+                  "company": {
+                    "name": "Company 10",
+                    "headcount": 10390,
+                    "headcount_range": "10001+",
+                    "industry": {
+                      "main_industry": "Chemical Manufacturing"
+                    }
+                  }
+                },
+                "all": [
+                  {
+                    "title": "Niezależny konsultant, rekruter",
+                    "seniority": "Unknown",
+                    "is_current": true,
+                    "start_at": "2023-04-01T00:00:00Z",
+                    "end_at": null,
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 10",
+                      "headcount": 10390,
+                      "headcount_range": "10001+",
+                      "industry": {
+                        "main_industry": "Chemical Manufacturing"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Dyrektor zarządzający / Konsultant",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2022-01-01T00:00:00Z",
+                    "end_at": "2023-04-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 11",
+                      "headcount": 8,
+                      "headcount_range": "11-50",
+                      "industry": {
+                        "main_industry": "Personal Care Product Manufacturing"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Niezależny konsultant",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2021-02-01T00:00:00Z",
+                    "end_at": "2021-12-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 10",
+                      "headcount": 10390,
+                      "headcount_range": "10001+",
+                      "industry": {
+                        "main_industry": "Chemical Manufacturing"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Konsultant zarządu ds. rozwoju biznesu, dyrektor zarządzający",
+                    "seniority": "Senior",
+                    "is_current": null,
+                    "start_at": "2018-04-01T00:00:00Z",
+                    "end_at": "2020-04-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 12",
+                      "headcount": 26,
+                      "headcount_range": "51-200",
+                      "industry": {
+                        "main_industry": "Transportation, Logistics, Supply Chain and Storage"
+                      }
+                    }
+                  },
+                  {
+                    "title": "Konsultant, Dyrektor Zarządzający",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2011-10-01T00:00:00Z",
+                    "end_at": "2017-06-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 13",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Założyciel, Dyrektor Zarządzający",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2008-04-01T00:00:00Z",
+                    "end_at": "2011-04-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 14",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Właściciel",
+                    "seniority": "Unknown",
+                    "is_current": true,
+                    "start_at": "2007-07-01T00:00:00Z",
+                    "end_at": null,
+                    "description": "(job description removed)",
+                    "job_functions": [
+                      {
+                        "function": "Executive & Leadership",
+                        "sub_function": "Founder/Owner"
+                      }
+                    ],
+                    "company": {
+                      "name": "Company 15",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Kierownik Działu Obsługi Klienta",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2006-04-01T00:00:00Z",
+                    "end_at": "2007-06-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 16",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Kierownik działu logistyki",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "2000-01-01T00:00:00Z",
+                    "end_at": "2006-03-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 16",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Kierownik działu eksportu i importu",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "1999-03-01T00:00:00Z",
+                    "end_at": "2000-01-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 16",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Sprzedawca samochodów",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "1997-09-01T00:00:00Z",
+                    "end_at": "1999-03-01T00:00:00Z",
+                    "description": "(job description removed)",
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 17",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": "Zastępca Kierownika Działu Papierniczego",
+                    "seniority": "Unknown",
+                    "is_current": null,
+                    "start_at": "1996-01-01T00:00:00Z",
+                    "end_at": "1996-01-01T00:00:00Z",
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 18",
+                      "headcount": 0,
+                      "headcount_range": "",
+                      "industry": {
+                        "main_industry": ""
+                      }
+                    }
+                  }
+                ]
+              },
+              "social_profiles": {
+                "professional_network": {
+                  "id": 4,
+                  "url": "https://www.linkedin.com/in/person-e",
+                  "handle": "person-e",
+                  "connection_count": 705
+                }
+              }
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000005",
+              "full_name": "Person F",
+              "first_name": "Person",
+              "last_name": "F",
+              "headline": "Rekruter",
+              "description": null,
+              "location": {
+                "country": "Poland",
+                "country_code": "PL",
+                "city": "Warsaw",
+                "region": "mazowieckie"
+              },
+              "employment": {
+                "current": {
+                  "title": "Rekruter HR",
+                  "seniority": "Unknown",
+                  "is_current": true,
+                  "start_at": "2017-01-01T00:00:00Z",
+                  "end_at": null,
+                  "description": null,
+                  "job_functions": null,
+                  "company": {
+                    "name": "Company 19",
+                    "headcount": 2,
+                    "headcount_range": "11-50",
+                    "industry": {
+                      "main_industry": "Human Resources Services"
+                    }
+                  }
+                },
+                "all": [
+                  {
+                    "title": "Rekruter HR",
+                    "seniority": "Unknown",
+                    "is_current": true,
+                    "start_at": "2017-01-01T00:00:00Z",
+                    "end_at": null,
+                    "description": null,
+                    "job_functions": null,
+                    "company": {
+                      "name": "Company 19",
+                      "headcount": 2,
+                      "headcount_range": "11-50",
+                      "industry": {
+                        "main_industry": "Human Resources Services"
+                      }
+                    }
+                  }
+                ]
+              },
+              "social_profiles": {
+                "professional_network": {
+                  "id": 5,
+                  "url": "https://www.linkedin.com/in/person-f",
+                  "handle": "person-f",
+                  "connection_count": 701
+                }
+              }
+            }
+          ],
+          "metadata": {
+            "total": 433,
+            "offset": 0
+          }
+        },
+        "records": 6,
+        "upstreamStatus": 200
+      }
+    ],
+    "creditsCost": 30
+  }
+}
